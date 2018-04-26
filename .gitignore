@@ -22,3 +22,7 @@ yarn-error.log*
 
 # solutions:
 bwa_u2_ravenous_solution_1.zip
+bwa_u2_ravenous_solution_2.zip
+
+# gitignore file:
+.gitignore
