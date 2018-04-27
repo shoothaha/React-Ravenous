@@ -7,6 +7,7 @@ class Business extends React.Component {
 		return (
 			<div className="Business">
 				<div className="image-container">
+					{/* this.props.business refers to the props gave by businessList */}
 					<img src={this.props.business.imageSrc} alt='' />
 				</div>
 

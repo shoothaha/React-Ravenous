@@ -8,6 +8,8 @@ class BusinessList extends React.Component {
         return (
             <div className="BusinessList">
                 {
+                    //The attributes pass the props to business.
+                    //and the props of businessList is get from app.js
                     this.props.business.map(business => {
                         return <Business business={business} />;
                     })
